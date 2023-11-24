@@ -1,0 +1,29 @@
+.quote-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  max-width: 300px;
+
+  padding: 15px;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
