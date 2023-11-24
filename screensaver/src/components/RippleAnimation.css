@@ -90,3 +90,7 @@
     transform: scale(0.8);
   }
 }
+
+audio {
+  display: none; /* Hide the audio controls */
+}
