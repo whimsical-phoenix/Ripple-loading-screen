@@ -39,12 +39,9 @@ const QuoteGenerator = () => {
     <ErrorBoundary>
       <div className="quote-overlay">
         {" "}
-        {/* Add the new class to the container */}
-        {/* <blockquote> */}
-        <p>
+        <blockquote>
           <q>{currentQuote}</q>
-        </p>
-        {/* </blockquote> */}
+        </blockquote>
       </div>
     </ErrorBoundary>
   );
