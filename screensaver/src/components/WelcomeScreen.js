@@ -1,13 +1,13 @@
 // WelcomeScreen.js
 import React from "react";
-import { useHistory } from "react-router-dom"; // Assuming you're using React Router
+import { useHistory } from "react-router-dom";
 
 const WelcomeScreen = () => {
   const history = useHistory();
 
   const handleClick = () => {
-    // Navigate to the screensaver page when clicked
-    history.push("/RippleAnimation"); // Update with your actual route
+    // Navigate to the RippleAnimation page when clicked
+    history.push("/RippleAnimation");
   };
 
   return (
